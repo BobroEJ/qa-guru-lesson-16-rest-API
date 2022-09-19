@@ -1,6 +1,4 @@
-import requests
 from pytest_voluptuous import S
-from voluptuous import Schema
 
 from schemas import users_list, single_user, user1
 from utils.sessions import reqres
